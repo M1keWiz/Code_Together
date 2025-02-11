@@ -10,14 +10,17 @@ body {
 .header {
   width: 100%;
   padding: 20px 50px;
-  background-color: #14E7EF;
+  background-color: #0e6568;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  /*0@include tablet {
+      background-color: red;
+  }*/
 }
 .header .header__icon {
-  width: 35px;
+  width: 30px;
   cursor: pointer;
   display: inline-block;
 }
@@ -38,12 +41,12 @@ body {
 }
 .banner .banner__title {
   width: 100%;
-  font-weight: 600;
+  font-weight: 590;
   font-size: 30px;
   margin: -7px;
 }
 .banner .banner__paragraph {
-  width: 423px;
+  width: 420px;
   margin: 0 auto;
   font-size: 20px;
   opacity: 0.7;
@@ -53,9 +56,7 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /*@include product-style();*/
 }
 .products .products__item {
   cursor: pointer;
