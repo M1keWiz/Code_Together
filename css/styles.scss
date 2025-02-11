@@ -1,4 +1,4 @@
-$color-header: #14E7EF;
+$color-header: #0e6568;
 $color-banner: #eef5f5;
 $color-cart: #fff;
 $fontFamily: 'Lexend', Arial, Helvetica, sans serif;
@@ -29,7 +29,7 @@ body{
     }
 
     .header__icon{
-        width: 35px;
+        width: 30px;
         cursor: pointer;
         display: inline-block;
     }
@@ -52,13 +52,13 @@ body{
 
     .banner__title{
         width: 100%;
-        font-weight: 600;
+        font-weight: 590;
         font-size: 30px;
         margin: -7px;
     }
     
     .banner__paragraph {
-        width: 423px;
+        width: 420px;
         margin: 0 auto;
         font-size: 20px;
         opacity: 0.7;
