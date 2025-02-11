@@ -24,9 +24,9 @@ body{
     background-color: $color-header;
     @include header-style();
 
-    @include tablet {
+    /*0@include tablet {
         background-color: red;
-    }
+    }*/
 
     .header__icon{
         width: 30px;
